@@ -7,7 +7,7 @@
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
     <arg name="recording" value="false"/>
-    <arg name="debug" value="true"/>
+    <arg name="debug" value="false"/>
   </include>	
   <param name="robot_description" textfile="$(find rotf_control)/urdf/model.urdf"/>
   <arg name="x" default="-0.3"/>
